@@ -117,13 +117,15 @@ incremento([2,1,5,10],3);
 console.log('*****esercizio7*****');
 
 const stringArray = ['Milano', 'Roma','Firenze','Venezia'];
-const newArraystring = stringArray.lenght;
+const newArraystring = stringArray.length;
+console.log(stringArray.length);
 console.log(newArraystring);
 
 console.log('*****esercizio7*****');
+
 function stringArr(strAr){
   const longSt = strAr.map(item => {
-    return item.lenght;
+    return item.length;
   });
   console.log(longSt);
 }
